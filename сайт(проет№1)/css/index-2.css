@@ -149,3 +149,52 @@ input::-webkit-calendar-picker-indicator {
 .internet:hover{
     box-shadow: 0px 2px 0px #000000a7;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text,
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .text {
+    position: absolute;
+    background: -webkit-linear-gradient(90deg, #b0a6a6,#ead1d1,#e6c1c1);
+    background: linear-gradient(90deg, #b0a6a6,#ead1d1,#e6c1c1);
+    width: 20%;
+    height: 1555%;
+    bottom: 96%;
+    display: block;
+    box-shadow: 3px -4px 2px gray;
+}
+a{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+/* Стилизация псевдокнопки */
+.btn {
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 4px 8px;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  cursor: pointer;
+  position: absolute;
+  top: 76%;
+}
