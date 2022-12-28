@@ -1,0 +1,57 @@
+.Console {
+    height: 38%;
+    width: 38%;
+    border: 9px solid black;
+    left: 28%;
+    bottom: 35%;
+    position: absolute;
+    background-color: #454545;
+    border-radius: 20px;
+}
+.text{
+    left: 37%;
+    top: -15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 16px;
+}
+.footer-console{
+    position: absolute;
+    bottom: 35%;
+    left: 28%;
+    border-bottom-left-radius: 20px ;
+    border-left-color: black
+}
+.input-console{
+    color:white;
+    background-color: #454545;
+    outline: none;
+    border-bottom-right-radius: 20px ;
+    border-right-color: black;
+    width: 375%;
+    border:2px solid black;
+    border-color: black;
+    border-bottom-left-radius: 20px ;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-color: white;
+}
+.Border-console{
+    padding: 0;
+    margin: 0;
+    height: 1%;
+    width: 38%;
+    border: 9px solid rgb(255, 255, 255);
+    left: 28%;
+    bottom: 72%;
+    background-color:#FBD9FF;
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: black;
+    border-right-color: black;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius:9px;
+    position: absolute;
+    z-index: 1;
+}
