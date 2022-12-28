@@ -24,28 +24,27 @@ h1{
     background: linear-gradient(90deg, #e34df5,#2ddffc);
     transition: 1s all;
     opacity: 1;
-    
-}
-.done{
-    opacity: 0;
-    visibility: hidden;
 }
 .loader{
-    width: 75px;
-    height: 75px;
-    border: 10px solid white;
-    border-radius: 50%;
-    border-top-color:#FF8E00;
-    left: 50%;
-    top:50%;
+    top: 57%;
+    left: 44%;
     position: absolute;
-    animation: 2s spin infinite linear;
+    width: 16%;
+    height: 0%;
+    border: 1px solid white;
+    border-radius: 2px;
 }
-@keyframes spin {
-    from{
-        transform: rotate(0deg);
-    }
+.loder-2{
+    top: 57%;
+    left: 44%;
+    position: absolute;
+    width: 0%;
+    border: 1px solid #CC1253;
+    animation: laoder 30s ease-in-out forwards;
+}
+
+@keyframes laoder {
     to{
-        transform: rotate(360deg);
+        width: 16%;
     }
 }
