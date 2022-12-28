@@ -81,7 +81,7 @@ img{
     position: absolute;
     width: 100%;
     height: 41px;
-    background-color: rgba(255, 255, 255, 0.809) ;
+    background-color: rgba(255, 255, 255, 0.724) ;
     bottom:0%;
     left: 0%;
 
@@ -100,6 +100,7 @@ img{
     outline: none;
 }
 .time{
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     outline: none;
     position: absolute;
@@ -169,14 +170,14 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:checked ~ .text {
     position: absolute;
-    background: -webkit-linear-gradient(90deg, #b0a6a6,#ead1d1,#e6c1c1);
-    background: linear-gradient(90deg, #b0a6a6,#ead1d1,#e6c1c1);
+    background-color:rgba(194, 194, 194, 0.721);
     width: 20%;
     height: 1555%;
     bottom: 96%;
     display: block;
     box-shadow: 3px -4px 2px gray;
 }
+
 a{
     
     font-family: Arial, Helvetica, sans-serif;
@@ -197,4 +198,72 @@ a{
   cursor: pointer;
   position: absolute;
   top: 76%;
+}
+.off{
+    position: absolute;
+    top:95%;
+}
+.seting{
+    position: absolute;
+    top:86%;
+}
+.file{
+    position: absolute;
+    top:81%;
+}
+.photo{
+    position: absolute;
+    top: 76%;
+}
+.profile{
+    position: absolute;
+    top:0%;
+    left: 79%;
+}
+.text-off{
+    color: black;
+    position: absolute;
+    top: 93%;
+    left: 33px
+    
+}
+.text-seting{
+    color: black;
+    position: absolute;
+    top: 84%;
+    left: 33px
+    
+}
+.text-file{
+    color: black;
+    position: absolute;
+    top: 79%;
+    left: 33px
+    
+}
+.text-photo{
+    color: black;
+    position: absolute;
+    top: 74%;
+    left: 33px
+    
+}
+.text-profile{
+    color: black;
+    position: absolute;
+    top: 0%;
+    left: 53%;
+    
+}
+.off:hover{
+    background-color: #ffffff48;
+}
+.file:hover{
+    background-color: #ffffff48;
+}
+.seting:hover{
+    background-color: #ffffff48;
+}
+.photo:hover{
+    background-color: #ffffff48;
 }
