@@ -1,0 +1,36 @@
+.text,
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .text {
+    position: absolute;
+    background: -webkit-linear-gradient(90deg, #b0a6a6,#ead1d1,#e6c1c1);
+    background: linear-gradient(90deg, #b0a6a6,#ead1d1,#e6c1c1);
+    border-radius: 5px;
+    width: 23%;
+    height: 38%;
+    top:57% ;
+    display: block;
+}
+a{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+/* Стилизация псевдокнопки */
+.btn {
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 4px 8px;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  cursor: pointer;
+  position: absolute;
+  top: 95%;
+}
