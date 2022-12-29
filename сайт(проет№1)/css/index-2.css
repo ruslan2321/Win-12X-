@@ -13,6 +13,10 @@ h1{
     font-size: 50px;
 
 }
+p{
+    font-family: 'Open Sans', sans-serif;
+
+}
 
 .icon{
     position: absolute;
