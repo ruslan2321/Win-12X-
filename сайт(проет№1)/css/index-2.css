@@ -174,12 +174,32 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:checked ~ .text {
     position: absolute;
-    background-color:rgba(194, 194, 194, 0.721);
+    
+    background-color: rgba(128, 128, 128, 0.442);
     width: 20%;
     height: 1555%;
     bottom: 96%;
     display: block;
-    box-shadow: 3px -4px 2px gray;
+    border: 3px solid azure;
+    border-left-color: rgba(128, 128, 128, 0.442);
+    border-bottom-color: rgba(128, 128, 128, 0.442);
+    border-top-right-radius: 10px;
+    box-shadow: 8px -2px 7px 0px #cfcfcf;  
+}
+.audio,
+input[type="checkbox"] {
+  display: none;
+}
+
+
+input[type="checkbox"]:checked ~ .audio {
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.721);
+    width: 20%;
+    height: 100%;
+    bottom: 96%;
+    display: block;
+    box-shadow: 3px -4px 2px rgb(0, 0, 0);
 }
 
 a{
@@ -203,6 +223,18 @@ a{
   position: absolute;
   top: 76%;
 }
+.sound{
+    display: inline-block;
+    margin-bottom: 4px;
+    padding: 4px 8px;
+    background-color: #ffffff00;
+    border: 1px solid #eeeeee00;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    top:5%;
+    right: 8%;
+}
 .off{
     position: absolute;
     top:95%;
@@ -222,7 +254,7 @@ a{
 .profile{
     position: absolute;
     top:0%;
-    left: 79%;
+    left: 86%;
 }
 .text-off{
     color: black;
@@ -255,19 +287,24 @@ a{
 .text-profile{
     color: black;
     position: absolute;
-    top: 0%;
-    left: 61%;
+    top: -1%;
+    left: 66%;
     
 }
 .off:hover{
-    background-color: #ffffff8e;
+    transition: 0.1s ease-in-out ;
+    background-color: #ffffff35;
 }
 .file:hover{
-    background-color: #ffffff8e;
+
+    transition: 0.1s ease-in-out ;
+    background-color: #ffffff35;
 }
 .seting:hover{
-    background-color: #ffffff8e;
+    transition: 0.1s ease-in-out ;
+    background-color: #ffffff35;
 }
 .photo:hover{
-    background-color: #ffffff8e;
+    transition: 0.1s ease-in-out ;
+    background-color: #ffffff35;
 }

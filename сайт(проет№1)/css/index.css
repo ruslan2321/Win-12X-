@@ -48,3 +48,10 @@ h1{
         width: 16%;
     }
 }
+.text{
+    position: absolute;
+    bottom: 0%;
+    left: 49%;
+    font-size: 30px;
+    font-family: monospace;
+}
