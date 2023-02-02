@@ -114,6 +114,7 @@ img{
     background-color: initial;
 }
 .start{
+    background-color: inherit;
     position: absolute;
     margin: 0;
     padding: 0;
@@ -142,8 +143,9 @@ input::-webkit-calendar-picker-indicator {
     opacity: 0;
 }
 .start:hover{
-    /* background-color: #00000038; */
-    box-shadow: 0px 2px 0px #000000a7;
+    transition: 0.5s ease-in-out; 
+   background-color:#ababab;
+   border-radius: 3px;
 }
 .sound:hover{
     box-shadow: 0px 2px 0px #000000a7;
@@ -174,17 +176,16 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:checked ~ .text {
     position: absolute;
-    
-    background-color: rgba(128, 128, 128, 0.442);
+    background-color: rgb(255 255 255 / 75%);
     width: 20%;
     height: 1555%;
     bottom: 96%;
     display: block;
     border: 3px solid azure;
     border-left-color: rgba(128, 128, 128, 0.442);
-    border-bottom-color: rgba(128, 128, 128, 0.442);
+    border-bottom-color: rgb(128 128 128 / 0%);
     border-top-right-radius: 10px;
-    box-shadow: 8px -2px 7px 0px #cfcfcf;  
+    /* box-shadow: 8px -2px 7px 0px #cfcfcf; */
 }
 .audio,
 input[type="checkbox"] {
